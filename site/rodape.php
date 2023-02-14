@@ -1,0 +1,1 @@
+<p class="direitos">&copy;Mastersun</p>

@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+}
+body{
+    background-color: #111;
+}
+#geral{
+    max-width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*------------------TOPO DO SITE!!!!------------*/
+#topo{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: #DDF;
+}
+.logo{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+.links_top{
+    float: right;
+    padding: 10px;
+    margin: 5px 2px;
+    color: #FFF;
+    background-color: #111;
+}
+.links_top:hover{background-color: #59f;}
+/*-------------------FIM DO TOPO!!!----------------*/
+
+
+/*------------MENU SITE!!----------------------*/
+
+#menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #145;
+}
+.links_menu li a {
+    float: left;
+    padding: 17px;
+    background-color:#145 ;
+    color: #fff;
+    margin-top: 1px;
+}
+.links_menu li a:hover{
+    background-color: #59f;
+
+}
+/*-------------------fIM MENU!!!---------------*/
+
+
+
+#conteudo{
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+#conteudo_principal{
+    width: 70%;
+    min-height: 600px;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+}
+#recentes{
+    width: 26%;
+    min-height: 600px;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+}
+.postagens{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin: 10px 0 30px 0;
+    border: 0px solid #f00;
+}
+.titulos{
+    font-size: 20px;
+    font-family:sans-serif;
+    float: left;
+    width: 96%;
+    margin:10px 2%;
+}
+.imagem{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 5px 0;
+}
+.paragrafo,.data{
+    font-size: 16px;
+    color: #111;
+    float: left;
+    width: 96%;
+    font-family: sans-serif;
+    margin: 10px 2%;
+}
+.postagens_recentes{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin: 10px 0 30px 0;
+    border: 0px solid #f00;
+}
+.titulos a:hover{
+    color: #59f;
+}
+/*---------------PAGIAN DE CONTATO-----------*/
+.campos,.campos_cad,#botoes,.botoes{
+    width: 80%;
+    margin: 10px 10%;
+    min-height: 30px;
+    float: left;
+    padding: 2px;
+    font-size: 16px;
+}
+.campo2{
+    width: 80%;
+    margin: 10px 10%;
+    height: 100px;
+    float: left;
+    padding: 2px;  
+}
+.bt_enviar{
+    float: left;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 16px;
+}
+.legenda{
+    float: left;
+    margin-left: 10%;
+    font-size: 16px ;
+}
+#box_form{
+    width: 80%;
+    min-height: 300px;
+    background-color: #FFF;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.bt_cad{
+    float: left;
+    font-size:16px;
+    padding: 5px;
+    margin-right: 5px;
+}
+.form_link{
+    color: #59f;
+    font-size: 16px;
+    float: left;
+}
+.p_form{
+    color: #333;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+
+
+
+/*--------------------FIM DA PAGINA DE CONTATO----------*/
+
+/*---------------RODAPE----------------*/
+#rodape{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: #DDf;
+}
+.direitos{
+    text-align: center;
+    font-size: 18px;
+}
+
+/*------------fIM RODAPE--------------*/
